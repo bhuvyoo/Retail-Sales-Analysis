@@ -7,8 +7,19 @@ This project presents an end-to-end business analytics workflow using Python, SQ
 ---
 
 ## Dashboard Preview
-<img width="1400" height="900" alt="image" src="https://github.com/user-attachments/assets/12247e8e-d8f4-4079-b03a-4202a022ab6a" />
 
+<img width="1400" height="900" alt="image" src="https://github.com/user-attachments/assets/76224f3f-af29-408e-8857-eb9215732eee" />
+
+
+---
+
+## Project Highlights
+
+* Analyzed 9,994 retail transactions from the Superstore dataset.
+* Generated insights from $2.29M in sales and $286K in profit.
+* Performed data cleaning and feature engineering using Python (Pandas).
+* Conducted SQL-based business analysis across sales, profit, products, and customer segments.
+* Built an interactive Tableau dashboard for KPI reporting and business intelligence.
 
 ---
 
@@ -83,12 +94,6 @@ Built an interactive Tableau dashboard featuring:
 
 ---
 
-## Dashboard Preview
-
-![Dashboard](dashboard.png)
-
----
-
 ## Key Performance Indicators (KPIs)
 
 | Metric              | Value  |
@@ -115,7 +120,6 @@ Built an interactive Tableau dashboard featuring:
 
 ```text
 Retail-Sales-Analysis/
-│
 ├── cleaned_data.csv
 ├── python_cleaning.ipynb
 ├── sql_queries.sql
@@ -126,19 +130,18 @@ Retail-Sales-Analysis/
 
 ---
 
-## Project Outcomes
-
-This project demonstrates practical skills in:
+## Skills Demonstrated
 
 * Data Cleaning & Transformation
 * SQL Querying & Business Analysis
 * Data Visualization
 * Dashboard Development
 * Business Intelligence Reporting
+* Exploratory Data Analysis (EDA)
 * Data-Driven Decision Making
 
 ---
 
 ## Conclusion
 
-This project showcases an end-to-end analytics workflow from raw data preparation to business insight generation. By combining Python, SQL, and Tableau, the project highlights how analytical techniques can be used to uncover meaningful trends and support informed business decisions.
+This project demonstrates the complete analytics lifecycle, from raw data preparation and SQL-based business analysis to dashboard development and insight generation. It highlights practical applications of Python, SQL, and Tableau in solving real-world business intelligence problems.
