@@ -33,6 +33,8 @@ This project analyzes retail sales data using Python, SQL, and Tableau.
 * Profit: 286,397
 * Quantity: 37,873
 * Profit Margin: 12.03%
+  <img width="700" height="450" alt="dashboard" src="https://github.com/user-attachments/assets/daac56e5-fe06-4ddf-b063-4c3172a4b749" />
+
 
 ### Key Findings
 
