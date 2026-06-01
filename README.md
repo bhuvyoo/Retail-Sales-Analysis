@@ -1,52 +1,144 @@
-# Retail Sales Performance Analysis
+# Retail Sales Performance Analysis Dashboard
 
 ## Project Overview
 
-This project analyzes retail sales data using Python, SQL, and Tableau.
+This project presents an end-to-end business analytics workflow using Python, SQL, and Tableau to analyze retail sales performance. The objective was to transform raw sales data into actionable business insights by performing data cleaning, exploratory analysis, and interactive dashboard development.
 
-### Tools Used
+---
+
+## Dashboard Preview
+<img width="1400" height="900" alt="image" src="https://github.com/user-attachments/assets/12247e8e-d8f4-4079-b03a-4202a022ab6a" />
+
+
+---
+
+## Business Problem
+
+Retail organizations generate large volumes of transactional data, but extracting meaningful insights from this data can be challenging. This project analyzes sales, profit, customer segments, product categories, and regional performance to identify key business drivers and support data-driven decision making.
+
+---
+
+## Dataset Information
+
+**Dataset:** Superstore Sales Dataset
+
+**Source:** Kaggle
+
+**Records Analyzed:** 9,994 retail transactions
+
+The dataset contains information related to:
+
+* Orders and sales
+* Product categories and sub-categories
+* Customer segments
+* Regional performance
+* Shipping details
+* Profit and discount metrics
+
+---
+
+## Tools & Technologies
 
 * Python (Pandas, NumPy)
 * MySQL
 * Tableau
+* Jupyter Notebook
 
-### Data Cleaning (Python)
+---
 
-* Loaded Superstore dataset
-* Checked missing values
-* Removed duplicates
-* Created Profit Margin column
+## Project Workflow
+
+### 1. Data Cleaning & Preparation (Python)
+
+Performed data preprocessing using Pandas:
+
+* Checked and handled missing values
+* Removed duplicate records
+* Converted date columns into appropriate formats
+* Created Profit Margin metric
 * Calculated Shipping Days
-* Extracted Year and Month
+* Extracted Year and Month features for trend analysis
 
-### SQL Analysis
+### 2. Business Analysis (SQL)
 
-* Regional sales analysis
-* Category profit analysis
-* Segment sales analysis
-* Yearly sales trend
-* Top-selling products
+Performed SQL-based analysis to answer key business questions:
 
-### Dashboard KPIs
+* Regional sales performance analysis
+* Category and sub-category profitability analysis
+* Customer segment analysis
+* Top-selling products identification
+* Year-over-year sales trend analysis
+* Discount versus profit analysis
 
-* Total Sales: 2,297,201
-* Profit: 286,397
-* Quantity: 37,873
-* Profit Margin: 12.03%
-  <img width="700" height="450" alt="dashboard" src="https://github.com/user-attachments/assets/daac56e5-fe06-4ddf-b063-4c3172a4b749" />
+### 3. Dashboard Development (Tableau)
 
+Built an interactive Tableau dashboard featuring:
 
-### Key Findings
+* KPI Cards
+* Sales Trend Analysis
+* Regional Performance Visualization
+* Category Profitability Analysis
+* Customer Segment Breakdown
+* Product Performance Metrics
 
-* Total sales reached 2.29 million.
-* Total profit generated was 286 thousand.
-* Overall profit margin was 12.03%.
-* West region generated the highest sales.
-* Technology was the most profitable category.
-* Consumer segment contributed the largest share of sales.
-* Sales increased from 2014 to 2017.
-* Higher discounts did not always result in higher profits.
+---
+
+## Dashboard Preview
+
+![Dashboard](dashboard.png)
+
+---
+
+## Key Performance Indicators (KPIs)
+
+| Metric              | Value  |
+| ------------------- | ------ |
+| Total Sales         | $2.29M |
+| Total Profit        | $286K  |
+| Total Quantity Sold | 37,873 |
+| Profit Margin       | 12.03% |
+
+---
+
+## Key Business Insights
+
+* Generated insights from a retail dataset containing **9,994 transactions**, **$2.29M in sales**, and **$286K in profit**.
+* The **West Region** generated the highest sales revenue.
+* **Technology** emerged as the most profitable product category.
+* The **Consumer Segment** contributed the largest share of sales.
+* Sales demonstrated a consistent growth trend between **2014 and 2017**.
+* Higher discounts did not always result in higher profitability, highlighting the importance of pricing strategies.
+
+---
+
+## Repository Structure
+
+```text
+Retail-Sales-Analysis/
+│
+├── cleaned_data.csv
+├── python_cleaning.ipynb
+├── sql_queries.sql
+├── tableau_dashboard.twb
+├── dashboard.png
+└── README.md
+```
+
+---
+
+## Project Outcomes
+
+This project demonstrates practical skills in:
+
+* Data Cleaning & Transformation
+* SQL Querying & Business Analysis
+* Data Visualization
+* Dashboard Development
+* Business Intelligence Reporting
+* Data-Driven Decision Making
+
+---
 
 ## Conclusion
 
-The project demonstrates end-to-end business analytics using data cleaning, SQL querying, and interactive dashboard visualization.
+This project showcases an end-to-end analytics workflow from raw data preparation to business insight generation. By combining Python, SQL, and Tableau, the project highlights how analytical techniques can be used to uncover meaningful trends and support informed business decisions.
